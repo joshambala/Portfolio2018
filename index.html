@@ -1,0 +1,100 @@
+<html>
+  <head>
+
+    <title> Joshua Ambalathumkal - Full Stack Web Developer</title>
+
+    <link rel="stylesheet" type ="text/css" href="css/reset.css">
+    <link rel="stylesheet" type ="text/css" href="css/main.css">
+
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        Logo
+      </div>
+
+      <nav id="top-nav">
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <div class="jumbo">
+      <h1>Welcome To My Portfolio!</h1>
+    </div>
+
+    <div class="work">
+      <div class ="box" style="background: url(http://sainfoinc.com/wp-content/uploads/2013/08/real-web-designer.jpg) no-repeat center center;
+  background-size: cover;">
+
+        <div class="hoverBox">
+          <h3>Project 1</h3>
+          <h5>Web Design (COMING SOON!)</h5>
+        </div>
+      </div>
+
+      <div class ="box" style="background: url(http://www.immenseart.com/images/Responsive-Web-Design-Service-Sydney.jpg) no-repeat center center;
+  background-size: cover;">
+
+        <div class="hoverBox">
+          <h3>Project 2</h3>
+          <h5>WordPress (COMING SOON!)</h5>
+        </div>
+      </div>
+
+      <div class ="box" style="background: url(http://www.acedezines.com/_ui/images/web-design.png) no-repeat center center;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 3</h3>
+          <h5>JavaScript (COMING SOON!)</h5>
+        </div>
+      </div>
+
+      <div class ="box" style="background: url(https://www.hostpapa.com/blog/wp-content/uploads/2017/02/5-signs.png) no-repeat center center;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 4</h3>
+          <h5>SQL (COMING SOON!)</h5>
+        </div>
+      </div>
+
+      <div class ="box" style="background: url(https://5.imimg.com/data5/EO/YU/GLADMIN-62061253/responsive-web-design-services-500x500.png) no-repeat center center;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 5</h3>
+          <h5>node.js (COMING SOON!)</h5>
+        </div>
+      </div>
+
+      <div class ="box" style="background: url(https://www.k2bindia.com/wp-content/uploads/2013/01/responsive.jpg) no-repeat center center;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 6</h3>
+          <h5>React (COMING SOON!)</h5>
+        </div>
+      </div>
+   </div>
+
+   <div class="modal-container">
+     <div class="modal">
+       <img src="https://5.imimg.com/data5/EO/YU/GLADMIN-62061253/responsive-web-design-services-500x500.png">
+     </div>
+   </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    //$('body').css('background', '#fff');
+
+    $('.box').click(function(){
+      $('.modal-container').addClass('active');
+    });
+
+    $('.modal').click(function(){
+      $('.modal-container').removeClass('active');
+    });
+});
+</script>
+  </body>
+</html>
