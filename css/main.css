@@ -17,6 +17,7 @@ header {
   background-size: cover;
   /* background-color: #416275;*/
   display: inline-block;
+  border-radius: 180px;
 }
 
 #top-nav {
