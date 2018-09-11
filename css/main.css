@@ -11,9 +11,11 @@ header {
 
 #logo {
   text-align: center;
-  width: 60px;
-  height: 60px;
-  background-color: #416275;
+  width: 260px;
+  height: 260px;
+  background-image: url('../img/MyPost.jpg');
+  background-size: cover;
+  /* background-color: #416275;*/
   display: inline-block;
 }
 
