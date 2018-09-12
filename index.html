@@ -1,87 +1,98 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Lake Tahoe</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title> Joshua Ambalathumkal - Full Stack Web Developer</title>
+    <link rel="stylesheet" type ="text/css" href="css/reset.css">
+    <link rel="stylesheet" type ="text/css" href="css/main.css">
   </head>
   <body>
-    <header id="top" class="main-header">
-      <span class="title">Journey through the Sierra Nevada Mountains</span>
-      <h1>Lake Tahoe, California</h1>
-      <img class="arrow" src="img/arrow.svg" alt="Down arrow">
-    </header>
-		<div class="primary-content t-border">
-			<p class="intro">
-				Lake Tahoe is one of the most breathtaking attractions located in California. It's home to a number of ski resorts, summer outdoor recreation, and tourist attractions. Snow and skiing are a significant part of the area's reputation.
-			</p>
-			<a class="callout" href="#more" target="_blank">Find out more</a>
-
-      <div class="wildlife">
-
-      <!--h3>My Google Maps Demo</h3-->
-      <!--The div element for the map -->
-      <!--div id="map"></div-->
-
-
-      <h2>Check out all the Wildlife</h2>
-      <p>
-        As spawning season approaches the fish acquire a humpback and protuberant jaw. After spawning they die and their carcasses provide a feast for gatherings of <a href="#mink">mink</a>, <a href="#bears">bears</a>, and <a href="#eagles">bald eagles</a>.
-      </p>
-
-    </div> <!-- End .wildlife -->
-			<a class="callout" href="#wildlife">See the Wildlife</a>
-		</div> <!-- End .primary-content -->
-
-		<div class="secondary-content t-border">
-      <div class="resorts">
-
-        <img src="img/resort.jpg" alt="Resort">
-        <h3>From Tents to Resorts</h3>
-        <p>
-        Lake Tahoe is full of wonderful places to stay. You have the ability to sleep in the outdoors in a tent, or relax like a king at a five star resort. Here are our top three resorts:
-        </p>
-        <ul>
-          <li><a href="#hotels">Lake Tahoe Resort Hotel</a></li>
-          <li><a href="#resorts">South Lake Tahoe Resorts</a></li>
-          <li><a href="#lodging">Tahoe Ski Resort Lodging</a></li>
-        </ul>
+    <header>
+      <div id="logo">
       </div>
 
-      <div class="tips">
-        <img src="img/mtn-landscape.jpg" alt="Mountain Landscape">
-        <h3>Pack Accordingly</h3>
-        <p>
-        One of most important things when it comes to traveling through the great outdoors is packing accordingly. Here are a few tips:
-        </p>
-        <ol>
-          <li>Bring layers of clothing</li>
-          <li>Pack sunscreen</li>
-          <li>Carry extra water just in case</li>
-          <li>Pack light</li>
-        </ol>
-		  </div> <!-- End .secondary-content -->
+      <nav id="top-nav">
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
 
-		<footer id="main-footer" class="t-border">
-			<p>All rights reserved to the state of <a href="#">California</a>.</p>
-			<a href="#top">Back to top &raquo;</a>
-		</footer>
+    <div class="jumbo">
+      <h1>Welcome To My Portfolio!</h1>
+    </div>
 
-    <script>
-    // Initialize and add the map
-    function initMap() {
-    // The location of Tahoe
-    var tahoe = {lat: 39.09684, lng: -120.032349};
-    // The map, centered at Tahoe
-    var map = new google.maps.Map(
-        document.getElementById('map'), {zoom: 8, center: tahoe});
-    // The marker, positioned at Tahoe
-    var marker = new google.maps.Marker({position: tahoe, map: map});
-    }
-    </script>
+    <div class="work">
+      <div class ="box" style="background: url('img/travelBlogImage.png') no-repeat center center;
+  background-size: cover;">
 
-    <!-- Replace the value of the key parameter with your own API key. -->
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlrvto8f-qrMh7fiU-UHaGezyj9Gpqa70&callback=initMap">
-    </script>
+        <div class="hoverBox">
+          <h3><a href="https://joshambala.github.io/LakeTahoeTravel/" target="_blank">Project 1 - Travel Blog</h3>
+          <h5>HTML & CSS</h5>
+        </div>
+      </div>
+
+      <div class ="box" style="background: url('img/hackyTails.png') no-repeat center center;
+  background-size: cover;">
+
+        <div class="hoverBox">
+          <h3><a href="https://project-pets.github.io/project-pets/" target="_blank">Project 2 - Pet Services Search App</h3>
+          <h5>HTML, CSS, JavaScript, jQuery</h5>
+        </div>
+      </div>
+
+      <div class ="box" style="background: url('img/tributePage.png') no-repeat center center;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3><a href="https://codepen.io/JoshAmbala/pen/WOLBeK" target="_blank">Project 3 - Nas Tribute Page</h3>
+          <h5>HTML, CSS, Bootstrap</h5>
+        </div>
+      </div>
+
+      <div class ="box" style="background: url(https://www.hostpapa.com/blog/wp-content/uploads/2017/02/5-signs.png) no-repeat center center;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 4</h3>
+          <h5>SQL (COMING SOON!)</h5>
+        </div>
+      </div>
+
+      <div class ="box" style="background: url(https://5.imimg.com/data5/EO/YU/GLADMIN-62061253/responsive-web-design-services-500x500.png) no-repeat center center;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 5</h3>
+          <h5>node.js (COMING SOON!)</h5>
+        </div>
+      </div>
+
+      <div class ="box" style="background: url(https://www.k2bindia.com/wp-content/uploads/2013/01/responsive.jpg) no-repeat center center;
+  background-size: cover;">
+        <div class="hoverBox">
+          <h3>Project 6</h3>
+          <h5>React (COMING SOON!)</h5>
+        </div>
+      </div>
+   </div>
+
+   <div class="modal-container">
+     <div class="modal">
+       <img src="https://5.imimg.com/data5/EO/YU/GLADMIN-62061253/responsive-web-design-services-500x500.png">
+     </div>
+   </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- script -->
+<!--  $(document).ready(function(){ -->
+<!--    //$('body').css('background', '#fff'); -->
+
+<!--    $('.box').click(function(){ -->
+<!--      $('.modal-container').addClass('active'); -->
+<!--    }); -->
+<!--    $('.modal').click(function(){ -->
+<!--      $('.modal-container').removeClass('active'); -->
+<!--    }); -->
+<!-- }); -->
+<!--/script> -->
   </body>
 </html>
+
