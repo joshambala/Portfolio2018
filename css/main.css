@@ -11,8 +11,8 @@ header {
 
 #logo {
   text-align: center;
-  width: 260px;
-  height: 260px;
+  width: 360px;
+  height: 360px;
   background-image: url('../img/MyPost.jpg');
   background-size: cover;
   /* background-color: #416275;*/
